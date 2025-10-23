@@ -29,33 +29,55 @@ ul {
 
 /* character card container */
 .charCard {
-  background-color:white;
+  background-color:white(0000, 303030);
+
   border: 1px solid rgb(0, 0, 0);
   margin: 5px;
   padding-bottom: 20px;
 }
 
 /* character card header */
+// .charHeadContainer {
+//  position: relative;
+//   display: flex;
+//   justify-content: center;  
+//   align-items: center;
+//   margin: 10px 0;
+// }
+
+//css to scss below // .charHeadContainer{
+     charHeadContainer h2{}
 .charHeadContainer {
- position: relative;
+  position: relative;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   margin: 10px 0;
+  h2 {
+    margin-bottom: 0;
+    align-items: center;
+    text-align: center;
+  }
 }
+///sass below
+// .charHeadContainer
+//   position: relative
+//   display: flex
+//   justify-content: center
+//   align-items: center
+//   margin: 10px 0
 
-.charHeadContainer  h1 {
-  /* text-align: center;
-  align-items: center; */
-  /* width: 100%; */
-}
-
-
-.charHeadContainer h2 {
-  margin-bottom: 0;
-  align-items: center;
-  text-align: center;
-}
+//   h2
+//     margin-bottom: 0
+//     align-items: center
+//     text-align: center
+///
+// .charHeadContainer h2 {
+//   margin-bottom: 0;
+//   align-items: center;
+//   text-align: center;
+// }
+//////
 
 .charHeadContainer .favIcon {
 position: absolute;
