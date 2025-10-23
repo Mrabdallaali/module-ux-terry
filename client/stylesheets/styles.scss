@@ -29,11 +29,15 @@ ul {
 
 /* character card container */
 .charCard {
-  background-color:white(0000, 303030);
+  background-color:white(0000, 303030);;
 
-  border: 1px solid rgb(0, 0, 0);
+  // border: 1px solid rgb(0, 0, 0);
+  border: 1px solid black;
   margin: 5px;
-  padding-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px 1px rbga(0, 0, 0, 0.05);
+
+  // padding-bottom: 20px;
 }
 
 /* character card header */
@@ -50,11 +54,13 @@ ul {
 .charHeadContainer {
   position: relative;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   margin: 10px 0;
+
   h2 {
-    margin-bottom: 0;
+    margin-bottom: 0px;
     align-items: center;
     text-align: center;
   }
@@ -112,14 +118,24 @@ padding-right: 10px;
 }
 
 .charDetailsList li{ 
-  margin:5px;
+  margin: 5px;
+  align-items: center;
 }
 
 .primaryButton{
-
+ background-color: lightblue;
+ font-family:'Times New Roman', Times, serif;
+ font-size: 14px;
+ color: white;
+ padding: 6px 20px;
+ border: none;
 }
 
 .secondaryButton{
-
+background-color: white;
+font-size: 14px;
+font-family: 'Times New Roman', Times, serif;
+border: solid 1px;
+padding: 6px 10px;
 }
 
